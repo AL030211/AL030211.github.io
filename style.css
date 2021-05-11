@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow:hidden;
 }
 .container{
     height: 100vh;
@@ -11,5 +12,4 @@
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
-    overflow:hidden;
 }
