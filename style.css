@@ -12,4 +12,6 @@
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
 }
