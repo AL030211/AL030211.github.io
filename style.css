@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 .container{
     height: 100vh;
@@ -33,7 +34,8 @@ nav{
     flex: 1;
     padding-left: 60px;  
     border-style:solid;
-    margin-left: 20px
+    border-width: 2px;
+    margin-left: 60px
 }
 
 nav ul li{
