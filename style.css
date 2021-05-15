@@ -185,5 +185,34 @@ nav ul li a{
 
             }
         }
-
+		
+#sitebody{
+　width:1500px;
+  height:250px;
+　font-size:13px;
+  background-color:#CAFFFF;
+}
+#sidebar_left1{
+　width:500px;　//DIV區塊寬度
+  height:250px;　//DIV區塊高度
+  padding-top:5px;
+  margin-top:5px;
+  float:left;
+}
+#sidebar_left2{
+　width:500px;　//DIV區塊寬度
+  height:250px;　//DIV區塊高度
+  padding:20px;
+  margin-top:40px;
+  margin-left:20px;
+  float:left;
+  text-align:center;
+}
+#content{
+  width: 500px;
+  height:250px;
+  float:left;
+  margin-left: 30px;
+  margin-top:40px;
+}
 
