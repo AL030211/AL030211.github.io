@@ -5,16 +5,16 @@
 .container{
     height: 100vh;
     width: 100%;
-    //background-image: url("background3.jpg");
-    //background-color: #E8FFF5;
-    backgroubd-position: center;
+    /*background-image: url("background3.jpg");*/
+    /*background-color: #E8FFF5;*/
+    background-position: center;
     background-size: cover;
     padding-left: 0%;
     padding-right: 0%;
     box-sizing: border-box;
     position: relative;
 	overflow-y: scroll;
-	overfolw-x: scroll;
+	overflow-x: scroll;
 }
 .navbar{
     width: 100%;
@@ -187,21 +187,21 @@ nav ul li a{
         }
 		
 #sitebody{
-　width:1500px;
+  width:1500px;
   height:250px;
-　font-size:13px;
+  font-size:13px;
   background-color:#CAFFFF;
 }
 #sidebar_left1{
-　width:500px;　//DIV區塊寬度
-  height:250px;　//DIV區塊高度
+  width:500px;
+  height:250px;
   padding-top:5px;
   margin-top:5px;
   float:left;
 }
 #sidebar_left2{
-　width:500px;　//DIV區塊寬度
-  height:250px;　//DIV區塊高度
+  width:500px;
+  height:250px;
   padding:20px;
   margin-top:40px;
   margin-left:20px;
@@ -213,6 +213,6 @@ nav ul li a{
   height:250px;
   float:left;
   margin-left: 30px;
-  margin-top:40px;
+  margin-top:20px;
 }
 
