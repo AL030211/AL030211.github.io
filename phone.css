@@ -192,7 +192,7 @@ horizontally) */
 .div1{
 	position: absolute;
     left: 20.5%;
-	top: 72%;
+	top: 60%;
 	opacity: 0.8;
 	z-index:2;
     /*border: solid;*/
@@ -204,10 +204,10 @@ horizontally) */
 
 #img-wrap{
             width:100%;
-            height:450px;
+            height:350px;
 			background-image: url("cover.jpg");
 			background-repeat: no-repeat;
-            background-size: 700px 400px;
+            background-size: 93% 300px;
             position: relative;
 			left: 5%;
             /*top: 10%;*/
@@ -216,8 +216,8 @@ horizontally) */
             float: left;
         }
         #img-wrap img{
-            width:700px;
-            height:400px;
+            width:93%;
+            height:300px;
             float:left;
             position:absolute;
             top:0;
@@ -245,7 +245,7 @@ horizontally) */
 
         @keyframes h1 {
             0%{
-                left:-700px;
+                left:-93%;
             }
             25%{
                 left:0;
@@ -263,11 +263,11 @@ horizontally) */
 
         @keyframes h2 {
             0%{
-                left:-700px;
+                left:-93%;
 
             }
             25%{
-                left:-700px;
+                left:-93%;
 
             }
             50%{
@@ -285,15 +285,15 @@ horizontally) */
         }
         @keyframes h3 {
             0%{
-                left:-700px;
+                left:-93%;
 
             }
             25%{
-                left:-700px;
+                left:-93%;
 
             }
             50%{
-                left:-700px;
+                left:-93%;
 
             }
             75%{
@@ -307,19 +307,19 @@ horizontally) */
         }
         @keyframes h4 {
             0%{
-                left:-700px;
+                left:-93%;
 
             }
             25%{
-                left:-700px;
+                left:-93%;
 
             }
             50%{
-                left:-700px;
+                left:-93%;
 
             }
             75%{
-                left:-700px;
+                left:-93%;
 
             }
             100%{
