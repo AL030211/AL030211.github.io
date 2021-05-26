@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <meta name="google-site-verification" content="kwfb_WUUx4z7l29tKkD8L1OWgpSvTGeHIyHb5EHWowc" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="container">  <!--div container start-->
@@ -13,8 +14,12 @@
       <div class="navbar">
          <img src="logo3.png" class="logo" width="130px" height="110px">
 		 <img src="name8.png" class="name" width="200px" height="110px">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			   <font size = 4.3 color = #9D9D9D><i class="fa fa-bars"></i></font>
+			</a>
          <nav>
              <ul>
+               <div class="topnav" id="myTopnav">
                <li><a href="index.htm">回到首頁<br><font size="2px" color=#7B7B7B>Home</font></a></li>
                <li><a href="">關於旭泰聯合有限公司<br><font size="2px" color=#7B7B7B>About</font></a></li>
                <li><a href="">公司登記<br><font size="2px" color=#7B7B7B>Business</font></a></li>
@@ -22,6 +27,7 @@
                <li><a href="">僑外投資<br><font size="2px" color=#7B7B7B>Investment</font></a></li>
                <li><a href="">協助取得資本簽證<br><font size="2px" color=#7B7B7B>Audit</font></a></li>
                <li><a href="">聯絡我們<br><font size="2px" color=#7B7B7B>Contact</font></a></li>
+               </div>
              </ul>
          </nav>
       </div>
@@ -39,15 +45,16 @@
 		 <img src="cover2.jpg" width="1000" height="500">
          <img src="cover3.jpg" width="1000" height="500">
          <img src="cover4.jpg" width="1000" height="500">
-	  </div>
+      </div>
 	  <!--div animation end-->
 	  
 	  <!--div watermark start-->
 	  <div class = "div1" >
-	  <img src="cover53.png" width="300" height="180">
+		<img src="cover53.png" width="300" height="180">
 	  </div>
-	  <!--div watermark end-->
-
+      <!--div watermark end-->
+	  
+      <!--div price start-->
 	  <div class = "price">
 
 		  <table>
@@ -79,6 +86,7 @@
 		  </table>
 
 	  </div>
+	  <!--div price end-->
 	  
 	  <!--div sitebody start-->
 	  <div id = "sitebody">
@@ -101,7 +109,7 @@
 		   <font size="4.5px" color=#7B7B7B>
 		   公司地址:(300)新竹市東區關新東路323號<br>
 		   苗栗聯絡處:(350)苗栗縣竹南鎮開元路850號<br>電話： (037) 476-848 / 傳真：(037)476-848<br>
-                   聯絡人: 翁先生<br>
+		   翁先生<br>
 		   手機：0933-152-025<br>E-mail：a_chuan1689@kimo.com<br>
 		   Line ID：0933152025
 		   </font>
@@ -113,5 +121,16 @@
 	  <!--div sitebidy end-->
 	</div>  <!--div container end-->
 	  
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
   </body>
+
 </html>
