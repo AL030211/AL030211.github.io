@@ -83,7 +83,7 @@ nav ul li a{
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     .logo{
         position: relative;
@@ -165,7 +165,7 @@ when the user clicks on the icon. This class makes the topnav look
 good on small screens (display the links vertically instead of 
 horizontally) */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .topnav.responsive {
       position: relative;
       opacity: 0.8;
