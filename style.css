@@ -76,7 +76,7 @@ nav ul li a{
 }
 
 .topnav a:hover{
-    color: #00AEAE;
+    opacity: 0.65;
   }
 
 .navbar .icon {
