@@ -169,6 +169,7 @@ horizontally) */
   .topnav.responsive {
       position: relative;
       opacity: 0.8;
+      width: 93%;
       left: 0%;
       top: 0%;
       z-index: 3;
@@ -184,7 +185,8 @@ horizontally) */
   .topnav.responsive li a{
     /*float: none;*/
     display: block;
-    text-align: left;
+    text-align: center;
+    height: 55px;
   }
 }
 
