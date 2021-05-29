@@ -210,6 +210,12 @@ horizontally) */
     text-align: center;
     /*border: solid;*/
 }
+
+.div1 img{
+    width: 60%;
+    height: auto;
+}
+
 .space{
     width:100%;
     /*border: solid;*/
