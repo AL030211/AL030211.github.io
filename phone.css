@@ -200,6 +200,8 @@ horizontally) */
 
 .div1{
     position: absolute;
+    width: auto;
+    height: auto;
     left: 0;
     right: 0;
     top: 33%;
