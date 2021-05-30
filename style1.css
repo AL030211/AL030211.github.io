@@ -72,6 +72,10 @@ nav ul li a{
     color: #333;
 }
 
+.topnav a:hover{
+    opacity: 0.65;
+  }
+
 .document{
     position: relative;
     height: 250px;
