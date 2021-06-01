@@ -94,67 +94,70 @@ nav ul li a{
 }
 .main-box{
     position: relative;
-    display: flex;
     justify-content: center;
     height: 250px;
     left: 4%;
     top: 0%;
-    width: 93%;
-    height: ;
+    width: 100%;
+    height: 550px;
+    /*border: solid;*/
 }
 
 .box1{
     width: 350px;
-    height: 700px;
-    margin: 15px;
+    height: 450px;
+    margin: 12px;
     padding: 20px;
     border: 1px #7B7B7B solid;
     background-color:#ECFFFF;
     border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+    float: left;
 }
 .box1 h2{
     margin-bottom: 10px;
     color: #BB5E00;
 }
 .box1 p{
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .box2{
     width: 350px;
-    height: 700px;
-    margin: 15px;
+    height: 450px;
+    margin: 12px;
     padding: 20px;
     border: 1px #7B7B7B solid;
     background-color:#ECFFFF;
     border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+    float: left;
 }
 .box2 h2{
     margin-bottom: 10px;
     color: #BB5E00;
 }
 .box2 p{
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .box3{
     width: 350px;
-    height: 700px;
-    margin: 15px;
+    height: 450px;
+    margin: 12px;
     padding: 20px;
     border: 1px #7B7B7B solid;
     background-color:#ECFFFF;
     border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+    float: left;
 }
 .box3 h2{
     margin-bottom: 10px;
     color: #BB5E00;
 }
 .box3 p{
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .div1{
