@@ -126,7 +126,7 @@ nav ul li a{
 }
 .box1 p{
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 3vmin;
 }
 
 .box2{
@@ -146,7 +146,7 @@ nav ul li a{
 }
 .box2 p{
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 3vmin;
 }
 
 .box3{
@@ -166,7 +166,7 @@ nav ul li a{
 }
 .box3 p{
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 3vin;
 }
 
 @media screen and (max-width: 768px) {
