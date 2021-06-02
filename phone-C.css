@@ -87,7 +87,7 @@ nav ul li a{
     position: relative;
     height: 250px;
     left: 5.5%;
-    width: 100%;
+    width: 93%;
     height: 90px;
 }
 .document h2{
@@ -102,7 +102,7 @@ nav ul li a{
     position: relative;
     justify-content: center;
     height: 250px;
-    left: 4%;
+    left: 5.5%;
     top: 0%;
     width: 93%;
     height: 550px;
@@ -110,15 +110,16 @@ nav ul li a{
 }
 
 .box1{
-    width: 82%;
+    width: 90%;
     height: 400px;
-    margin: 12px;
+    margin-left: 0%;
     padding: 20px;
     border: 1px #7B7B7B solid;
     background-color:#ECFFFF;
     border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
     float: left;
+    /*word-wrap: break-word;*/
 }
 .box1 h2{
     margin-bottom: 10px;
@@ -130,9 +131,9 @@ nav ul li a{
 }
 
 .box2{
-    width: 82%;
+    width: 90%;
     height: 400px;
-    margin: 12px;
+    margin-left: 0%;
     padding: 20px;
     border: 1px #7B7B7B solid;
     background-color:#ECFFFF;
@@ -150,9 +151,9 @@ nav ul li a{
 }
 
 .box3{
-    width: 82%;
+    width: 90%;
     height: 400px;
-    margin: 12px;
+    margin-left: 0%;
     padding: 20px;
     border: 1px #7B7B7B solid;
     background-color:#ECFFFF;
