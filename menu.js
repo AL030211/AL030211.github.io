@@ -6,3 +6,21 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+function ToDivAbout() {
+  var x1 = document.querySelector("#about");
+  x1.scrollIntoView(
+    {
+      behavior: "smooth"
+    }
+  );
+}
+
+function ToDivSitebody() {
+  var x1 = document.querySelector("#sitebody");
+  x1.scrollIntoView(
+    {
+      behavior: "smooth"
+    }
+  );
+}
