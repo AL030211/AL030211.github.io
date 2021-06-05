@@ -92,6 +92,10 @@ nav ul li a{
 .document p{
     color: #6C6C6C;
 }
+.document hr{
+    width: 90%;
+}
+
 .main-box{
     position: relative;
     justify-content: center;
