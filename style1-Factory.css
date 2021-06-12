@@ -73,6 +73,10 @@ nav ul li a{
     color: #333;
 }
 
+.navbar .icon {
+    display: none;
+}
+
 .topnav a:hover{
     opacity: 0.65;
 }
