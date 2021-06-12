@@ -308,6 +308,7 @@ tr:hover{
 }
 #content{
   font-size: 20px;
+  color: #7b7b7b;
   width: 500px;
   height: 250px;
   float:left;
@@ -315,3 +316,7 @@ tr:hover{
   margin-top:20px;
   word-wrap: break-word;
 }
+
+#content p{
+    height: 30px;
+  }
