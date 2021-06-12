@@ -127,7 +127,7 @@ nav ul li a{
 }
 .box1 p{
     margin-top: 5px;
-    font-size: 3.3vmin;
+    font-size: 3vmin;
 }
 
 .box2{
@@ -147,7 +147,7 @@ nav ul li a{
 }
 .box2 p{
     margin-top: 5px;
-    font-size: 3.3vmin;
+    font-size: 3vmin;
 }
 
 .box3{
@@ -167,7 +167,7 @@ nav ul li a{
 }
 .box3 p{
     margin-top: 5px;
-    font-size: 3.3vmin;
+    font-size: 3vmin;
 }
 
 @media screen and (max-width: 768px) {
@@ -225,21 +225,21 @@ nav ul li a{
 
     .topnav li a {display: none;}
     .navbar .icon {
-      position: relative;
-      width: 30px;
-      height: 30px;
-      float: right;
-      right: 2%;
-      top: 29%;
-      display: block;
-      font-size: 26px;
-      border: none;
-      /*border: 1px #CAFFFF solid;*/
-      border-color: #333;
-      border-radius: 5px;
-      background-color: #BBFFFF;
-      text-align: center;
-      box-shadow: 2px 2px 7px rgba(0,0,0,0.35)/*, -1px -1px 8px rgba(0,0,0,0.2)*/;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        float: right;
+        right: 2%;
+        top: 29%;
+        display: block;
+        font-size: 20px;
+        border: none;
+        /*border: 1px #CAFFFF solid;*/
+        border-color: #333;
+        border-radius: 5px;
+        background-color: #BBFFFF;
+        text-align: center;
+        box-shadow: 2px 2px 7px rgba(0,0,0,0.35)/*, -1px -1px 8px rgba(0,0,0,0.2)*/;
     }
 
     .navbar .icon:hover{
@@ -509,9 +509,17 @@ tr:hover{
   text-align:center;
 }
 #content{
-  width: 500px;
-  height: 250px;
-  /*float:left;*/
-  margin-left: 30px;
-  margin-top:20px;
-}
+    font-size: 16px;
+    color: #7b7b7b;
+    width: 92%;
+    height: 250px;
+    /*float:left;*/
+    margin-left: 30px;
+    margin-top:20px;
+    /*border: 1px solid;*/
+    word-wrap: break-word;
+  }
+  
+  #content p{
+    height: 26px;
+  }
