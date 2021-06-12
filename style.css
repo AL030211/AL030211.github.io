@@ -288,6 +288,7 @@ tr:hover{
   font-size:13px;
   background-color:#CAFFFF;
   float: left;
+  word-wrap: break-word;
 }
 #sidebar_left1{
   /*width:500px;*/
