@@ -307,6 +307,7 @@ tr:hover{
   text-align:center;
 }
 #content{
+  font-size: 20px;
   width: 500px;
   height: 250px;
   float:left;
