@@ -429,12 +429,17 @@ tr:hover{
   text-align:center;
 }
 #content{
-  font-size: 20px;
-  width: 93%;
+  font-size: 16px;
+  color: #7b7b7b;
+  width: 92%;
   height: 250px;
   /*float:left;*/
   margin-left: 30px;
   margin-top:20px;
   /*border: 1px solid;*/
   word-wrap: break-word;
+}
+
+#content p{
+  height: 26px;
 }
