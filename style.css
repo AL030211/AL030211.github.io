@@ -311,4 +311,5 @@ tr:hover{
   float:left;
   margin-left: 30px;
   margin-top:20px;
+  word-wrap: break-word;
 }
