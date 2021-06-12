@@ -24,3 +24,31 @@ function ToDivSitebody() {
     }
   );
 }
+
+
+function ToTop() {
+  var x2 = document.querySelector(".navbar");
+  x2.scrollIntoView(
+    {
+      behavior: "smooth"
+    }
+  );
+}
+
+var toTop = document.querySelector(".to-top");
+
+/*window.addEventListener("Scroll", () => {
+  if (window.pageYOffset > 100){
+    toTop.classList.add("active");
+  } else{
+    toTop.classList.remove("active");
+  }
+})*/
+
+function scrollFunction() {
+  if (document.body.scrollTop < 1000 || document.documentElement.scrollTop < 1000) {
+    toTop.style.display = "none";
+  } else {
+    toTop.style.display = "block";
+  }
+}
