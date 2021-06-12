@@ -322,9 +322,16 @@ nav ul li a{
     text-align:center;
 }
 #content{
+    font-size: 20px;
+    color: #7B7B7B;
     width: 500px;
     height: 250px;
     float:left;
     margin-left: 30px;
     margin-top:20px;
+    word-wrap: break-word;
+}
+  
+  #content p{
+      height: 30px;
 }
