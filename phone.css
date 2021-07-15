@@ -182,7 +182,6 @@ horizontally) */
     top: 0;
     border: solid;
   }
-
   .topnav.responsive li a{
     /*float: none;*/
     display: block;
@@ -200,17 +199,12 @@ horizontally) */
 }
 
 .div1{
-	position: absolute;
-    width: auto;
-    height: auto;
-    left: 0; 
-    right: 0; 
-    top: 33%;
-    margin-left: auto; 
-    margin-right: auto; 
+	position: relative;
+    left: 17%;
+	top: 35%;
 	opacity: 0.8;
 	z-index:2;
-    text-align: center;
+    float: left;
     /*border: solid;*/
 }
 
@@ -238,7 +232,7 @@ horizontally) */
             float: left;
             margin: 0 auto;
         }
-        #img-wrap img{
+        #img-wrap .img1{
             width:100%;
             height:300px;
             float:left;
@@ -249,20 +243,20 @@ horizontally) */
             z-index:1;
             margin: 0 auto;
         }
-        #img-wrap img:first-child{
+        #img-wrap .img1:first-child{
             animation:h1 40s ease 0s infinite;
             -webkit-animation:h1 40s ease 0s infinite;
         }
-        #img-wrap img:nth-child(2){
+        #img-wrap .img1:nth-child(2){
 
             animation:h2 40s ease 0s infinite;
             -webkit-animation:h2 40s ease 0s infinite ;
         }
-        #img-wrap img:nth-child(3){
+        #img-wrap .img1:nth-child(3){
             animation:h3 40s ease 0s infinite ;
             -webkit-animation:h3 40s ease 0s infinite  ;
         }
-        #img-wrap img:nth-child(4){
+        #img-wrap .img1:nth-child(4){
             animation:h4 40s ease 0s infinite ;
             -webkit-animation:h4 40s ease 0s infinite  ;
         }
