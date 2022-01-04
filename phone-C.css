@@ -170,7 +170,7 @@ nav ul li a{
     font-size: 3vmin;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
 
     .logo{
         position: relative;
@@ -225,12 +225,12 @@ nav ul li a{
 
     .topnav li a {display: none;}
     .navbar .icon {
-        position: relative;
+        position: absolute;
         width: 30px;
         height: 30px;
         float: right;
         right: 2%;
-        top: 29%;
+        top: 5%;
         display: block;
         font-size: 20px;
         border: none;
