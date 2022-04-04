@@ -202,13 +202,13 @@ nav ul li a{
     }
     
     nav {
+        width: 100%;
         border: none; 
         padding-left: 0%;
     }
 
     nav ul{
         position: absolute;
-        width: 100%;
         height: 75vh;
         left: 0%;
         top: 0%;
@@ -267,8 +267,6 @@ nav ul li a{
       text-align: center;
       height: 55px;
     }
-
-    
   }
 
 #img-wrap{
@@ -399,7 +397,7 @@ nav ul li a{
 
 
 .price{
-    width:550px;
+    width:55%;
     height:400px;
     position: relative;
     left: 5%;
@@ -416,7 +414,7 @@ table{
     border-collapse: collapse;
     width:450px;
     height:200px;
-    border: 1px solid #bdc3c7;
+    /*border: 1px solid #bdc3c7;*/
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
 }
 
@@ -444,22 +442,24 @@ tr:hover{
 }
 
 #about{
-    width: 700px;
+    width: 50%;
     height:300px;
     padding-top: 5%;
     margin-left: 5%;
     float: left;
+    position: relative;
     /*border: solid;*/
 }
 		
 #sitebody{
   position:relative;
   width:100%;
-  height:250px;
+  height:40%;
   font-size:13px;
   background-color:#CAFFFF;
   float: left;
   word-wrap: break-word;
+  /*border: solid;*/
 }
 #sidebar_left1{
   /*width:500px;*/
