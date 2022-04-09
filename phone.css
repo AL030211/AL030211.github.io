@@ -207,7 +207,8 @@ horizontally) */
 .photo{
     position:relative;
     width:93%;
-    left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     height:350px;
     /*border: solid;*/
 }
@@ -362,9 +363,11 @@ horizontally) */
 
 
 .price{
-    width:100%;
+    width:93%;
     height:300px;
     position: relative;
+    left: 3.5%;
+    right: 3.5%;
     /*left: 5%;*/
     /*top: 10%;*/
     /*border: solid;*/
@@ -407,10 +410,11 @@ tr:hover{
 }
 
 #about{
-    width: 92%;
+    width: 93%;
     height:300px;
     padding-top: 2%;
-    margin-left: 5%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
     float: left;
     /*border: solid;*/
 }
