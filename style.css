@@ -270,8 +270,8 @@ nav ul li a{
   }
 
 #img-wrap{
-            width:700px;
-            height:400px;
+            width:730px;
+            height:430px;
 			background-image: url("cover.jpg");
 			background-repeat: no-repeat;
             background-size: 700px 400px;
@@ -398,9 +398,9 @@ nav ul li a{
 
 .price{
     width:55%;
-    height:400px;
+    height:430px;
     position: relative;
-    left: 5%;
+    left: 0%;
     /*top: 10%;*/
     /*border: solid;*/
     float: left;
