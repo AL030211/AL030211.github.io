@@ -400,7 +400,7 @@ nav ul li a{
     width:55%;
     height:430px;
     position: relative;
-    left: 0%;
+    left: 5%;
     /*top: 10%;*/
     /*border: solid;*/
     float: left;
@@ -408,7 +408,7 @@ nav ul li a{
 
 table{
     position: relative;
-    left: 5%;
+    left: 0%;
     top: 5;
     /*transform: translate(-50%,-50%);*/
     border-collapse: collapse;
