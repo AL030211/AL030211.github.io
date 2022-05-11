@@ -13,8 +13,9 @@
     padding-right: 0%;
     box-sizing: border-box;
     position: relative;
-	overflow-y: scroll;
-	overflow-x: scroll;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("bg.jpg");
 }
 .navbar{
     width: 100%;
@@ -58,7 +59,7 @@ nav{
 	padding-top: 20px;
     border:solid;
     border-width: 0.5px;
-	border-color: #E0E0E0;
+	border-color: #BEBEBE;
     margin-left: 5%;
 	margin-top: 9px;
     /*測試用*/
