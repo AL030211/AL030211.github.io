@@ -13,7 +13,7 @@
     position: relative;
 	overflow-y: scroll;
 	overflow-x: scroll;
-    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("bg.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("bg.jpg");
 }
 .navbar{
     width: 100%;
