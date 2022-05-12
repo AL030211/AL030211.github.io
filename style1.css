@@ -108,13 +108,13 @@ nav ul li a{
     left: 4%;
     top: 0%;
     width: 100%;
-    height: 550px;
+    height: 600px;
     /*border: solid;*/
 }
 
 .box1{
     width: 350px;
-    height: 450px;
+    height: 500px;
     margin: 12px;
     padding: 20px;
     border: 1px #7B7B7B solid;
@@ -134,7 +134,7 @@ nav ul li a{
 
 .box2{
     width: 350px;
-    height: 450px;
+    height: 500px;
     margin: 12px;
     padding: 20px;
     border: 1px #7B7B7B solid;
@@ -154,7 +154,7 @@ nav ul li a{
 
 .box3{
     width: 350px;
-    height: 450px;
+    height: 500px;
     margin: 12px;
     padding: 20px;
     border: 1px #7B7B7B solid;
