@@ -17,11 +17,17 @@
     overflow-x: scroll;
     background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("bg.jpg");
 }
-.navbar {
+.navbar{
     width: 100%;
-    background-color: #ffffff; /* 根據圖片設定為白色 */
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
+    /*height: 15vh;*/
+    height: 220px;
+    /*display: flex;*/
+    /*align-items: center;*/
+	margin-right: 0px;
+	padding-left: 0%;
+	padding-top: 0%;
+    /*for test*/
+    /*border: solid;*/
 }
 .logo{
     position: relative;
@@ -45,35 +51,29 @@
     /*border: solid;*/
 }
 
-/* 導覽選單清單：這是置中的關鍵 */
-.nav ul li {
-    display: flex;          /* 啟用彈性佈局 */
-    justify-content: center; /* 水平方向置中對齊 */
-    list-style: none;       /* 移除圓點 */
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;        /* 寬度不夠時自動換行 */
+nav{
+    position:relative;
+	width:100%;
+	height:70px;
+    padding-left: 10px;
+	padding-top: 20px;
+    border:solid;
+    border-width: 0.5px;
+	border-color: #BEBEBE;
+    margin-left: 5%;
+	margin-top: 9px;
+    /*測試用*/
 }
 
-/* 每個選單項目的間距 */
-.nav ul li {
-    margin: 0 20px;         /* 調整左右間距，讓項目不要擠在一起 */
-    text-align: center;      /* 讓文字（中文與下方英文）置中 */
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
 }
-
-/* 連結文字樣式 */
-.nav ul li a {
+nav ul li a{
     text-decoration: none;
+	font-size: 20px;
     color: #333;
-    display: block;
-}
-
-/* 下方英文副標題微調 */
-.nav ul li font {
-    display: block;
-    font-size: 12px;
-    color: #888;
-    margin-top: 5px;
 }
 
 .topnav a:hover{
