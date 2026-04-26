@@ -65,15 +65,35 @@ nav{
     /*測試用*/
 }
 
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0px 20px;
+/* 導覽選單清單：這是置中的關鍵 */
+.nav-links {
+    display: flex;          /* 啟用彈性佈局 */
+    justify-content: center; /* 水平方向置中對齊 */
+    list-style: none;       /* 移除圓點 */
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;        /* 寬度不夠時自動換行 */
 }
-nav ul li a{
+
+/* 每個選單項目的間距 */
+.nav-links li {
+    margin: 0 20px;         /* 調整左右間距，讓項目不要擠在一起 */
+    text-align: center;      /* 讓文字（中文與下方英文）置中 */
+}
+
+/* 連結文字樣式 */
+.nav-links a {
     text-decoration: none;
-	font-size: 20px;
     color: #333;
+    display: block;
+}
+
+/* 下方英文副標題微調 */
+.nav-links span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
 }
 
 .topnav a:hover{
