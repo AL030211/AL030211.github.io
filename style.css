@@ -46,7 +46,7 @@
 }
 
 /* 導覽選單清單：這是置中的關鍵 */
-.nav-links {
+.nav ul li {
     display: flex;          /* 啟用彈性佈局 */
     justify-content: center; /* 水平方向置中對齊 */
     list-style: none;       /* 移除圓點 */
@@ -56,20 +56,20 @@
 }
 
 /* 每個選單項目的間距 */
-.nav-links li {
+.nav ul li {
     margin: 0 20px;         /* 調整左右間距，讓項目不要擠在一起 */
     text-align: center;      /* 讓文字（中文與下方英文）置中 */
 }
 
 /* 連結文字樣式 */
-.nav-links a {
+.nav ul li a {
     text-decoration: none;
     color: #333;
     display: block;
 }
 
 /* 下方英文副標題微調 */
-.nav-links span {
+.nav ul li font {
     display: block;
     font-size: 12px;
     color: #888;
